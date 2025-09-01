@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header style={styles.header}>
-      <h1 style={styles.title}>📦 Prisma Express App</h1>
+      <h1 style={styles.title}>Prisma Express App</h1>
       <nav style={styles.nav}>
         <Link to="/users" style={styles.link}>Users</Link>
         <Link to="/posts" style={styles.link}>Posts</Link>
